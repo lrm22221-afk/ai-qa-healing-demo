@@ -1,0 +1,9 @@
+{
+  "provider": "offline-rules",
+  "results": {
+    "validity": 1,
+    "coverage": 1,
+    "duplicateRate": 0,
+    "injectionSafe": 1
+  }
+}

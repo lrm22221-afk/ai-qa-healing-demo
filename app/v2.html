@@ -1,0 +1,13 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Checkout v2</title>
+<style>body{font-family:sans-serif;max-width:420px;margin:40px auto}label{display:block;margin-top:12px}input{width:100%;padding:6px}button{margin-top:16px;padding:8px 16px}.err{color:#b00020}.ok{color:#0a7d32}</style></head>
+<body><main><h1>Checkout</h1>
+<form id="checkout-form" novalidate><div class="fields">
+<label for="customer-email">Email</label><input id="customer-email" name="email" type="email" data-qa="field-email">
+<label for="item-count">Quantity</label><input id="item-count" name="qty" type="number" value="1" data-qa="field-qty">
+<label for="promo">Coupon code</label><input id="promo" name="coupon" data-qa="field-coupon">
+</div>
+<p>Total: $<span id="total" data-qa="order-total">20.00</span></p>
+<div class="actions"><button id="submit-payment" class="button button--cta" type="submit" data-qa="cta-pay">Pay now →</button>
+<button id="abort" type="button" data-qa="cta-cancel">Cancel order</button></div>
+</form><p id="msg" role="status" data-qa="status"></p></main>
+<script src="app.js"></script></body></html>

@@ -1,0 +1,5 @@
+provider: offline-rules
+PASS  validity       1.00 (>= 1)
+PASS  coverage       1.00 (>= 1)
+PASS  duplicateRate  0.00 (<= 0)
+PASS  injectionSafe  1.00 (>= 1)
